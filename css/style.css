@@ -227,15 +227,17 @@ img {
     position: relative;
     
 }
+
 /*.case-study-content .reverse {
     text-align: right;
 }*/
-     
+
 .case-study-image {
     border-style: solid;
     border-color: #FFD5C4;
     border-width: 3px;
     display: block;
+    
 }
 .case-study-title {
     border-style: solid;
@@ -247,8 +249,10 @@ img {
     padding: .5em;
     z-index: 1;
     position: relative;
+    
     background: linear-gradient(270deg, rgba(230, 232, 255, 0.9) 2.08%, rgba(230, 232, 255, 0.8) 38.02%, rgba(230, 246, 255, 0.8) 68.23%, rgba(230, 246, 255, 0.8) 95.31%);
 }
+
 .case-study-des {
     border-style: solid;
     border-width: 3px;
@@ -261,8 +265,22 @@ img {
     z-index: -2;
     margin-top: -5%;
     position: relative;
+    
     background: linear-gradient(270deg, rgba(230, 232, 255, 0.9) 2.08%, rgba(230, 232, 255, 0.8) 38.02%, rgba(230, 246, 255, 0.8) 68.23%, rgba(230, 246, 255, 0.8) 95.31%);
 }
+.case-study-image.rev-a {
+    order: 2;
+}
+.case-study-text.right {
+    align-items: flex-start;
+}
+.case-study-title.rev-b {
+    order: 1;
+}
+.case-study-des.rev-b {
+    order: 1;
+}
+
 /*Skills, roles, contact
 ============================================================*/
 li {
