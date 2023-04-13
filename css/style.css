@@ -224,6 +224,7 @@ img {
     column-gap: 10px;
     padding-top: 2%;
     padding-bottom: 2%;
+    align-items: center;
     position: relative;
     
 }
@@ -272,7 +273,8 @@ img {
     order: 2;
 }
 .case-study-text.right {
-    align-items: flex-start;
+    display: block;
+    align-items: right;
 }
 .case-study-title.rev-b {
     order: 1;
