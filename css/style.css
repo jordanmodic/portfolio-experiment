@@ -272,15 +272,16 @@ img {
 .case-study-image.rev-a {
     order: 2;
 }
-.case-study-text.right {
-    display: block;
-    align-items: right;
-}
 .case-study-title.rev-b {
     order: 1;
 }
 .case-study-des.rev-b {
     order: 1;
+}
+.case-study-text.right {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
 }
 
 /*Skills, roles, contact
@@ -363,8 +364,14 @@ li {
     align-items: center;
 }
 @media (max-width: 600px) {
-    body {
-        background-color: thistle;
+    .skills-contact {
+        flex-direction: column;
+    }
+    .skills-roles {
+        flex-direction: column;
+    }
+    .case-study-content {
+        grid-template-rows: 50% 50%;
     }
 }
 
